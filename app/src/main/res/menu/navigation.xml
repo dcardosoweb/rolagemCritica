@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/acerto_critico"
+        android:icon="@mipmap/machete"
+        android:title="@string/title_acerto" />
+    <item
+        android:id="@+id/sobre"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/falha_critica"
+        android:icon="@drawable/icon2_33"
+        android:title="@string/title_falha"/>
+
+</menu>
