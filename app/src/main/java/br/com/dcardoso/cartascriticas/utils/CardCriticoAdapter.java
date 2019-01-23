@@ -44,27 +44,27 @@ public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.
 
         if(card.getCodAtaque() == TipoAtaqueEnum.Contusao.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon8_49);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_spiked_bat);
 
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Perfurante.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon1_82);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_sai);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Cortante.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon1_67);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_war_axe);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.CorpoACorpo.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_backstab);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_giant);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Distancia.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_bowman);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_arrowed);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Natural.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_mighty_force);
-            cardCriticoViewHolder.binding.iconCard.setColorFilter(Color.parseColor("#ED4337"));
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_internal_injury);
+            //cardCriticoViewHolder.binding.iconCard.setColorFilter(Color.parseColor("#ED4337"));
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Magico.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon3_03);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_magic_swirl);
         }
         cardCriticoViewHolder.binding.setCard(card);
 
