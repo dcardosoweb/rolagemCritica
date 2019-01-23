@@ -68,6 +68,7 @@ public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.
         }
         cardCriticoViewHolder.binding.setCard(card);
 
+        setAnimation(cardCriticoViewHolder.itemView, i);
     }
 
     @Override
@@ -131,6 +132,16 @@ public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.
         @Override
         public boolean onLongClick(View v) {
             return false;
+        }
+    }
+
+    private int lastPosition = -1;
+    private boolean on_attach = true;
+
+    private void setAnimation(View view, int position) {
+        if (position > lastPosition) {
+            ItemAnimation.animate(view, on_attach ? position : -1, ItemAnimation.FADE_IN);
+            lastPosition = position;
         }
     }
 }
