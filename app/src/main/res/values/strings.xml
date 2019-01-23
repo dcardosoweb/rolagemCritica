@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Cartas Criticas</string>
+    <string name="app_name">Rolagem Criticas</string>
     <string name="title_home">Sobre</string>
-    <string name="title_acerto">Acerto Crítico</string>
-    <string name="title_falha">Falha Crítica</string>
+    <string name="title_acerto">Acerto</string>
+    <string name="title_falha">Falha</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

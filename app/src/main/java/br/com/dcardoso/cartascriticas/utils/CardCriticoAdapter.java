@@ -3,6 +3,8 @@ package br.com.dcardoso.cartascriticas.utils;
 import android.content.Context;
 import android.content.res.Resources;
 import android.databinding.DataBindingUtil;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -52,13 +54,14 @@ public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.
             cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon1_67);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.CorpoACorpo.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon8_49);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_backstab);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Distancia.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon8_49);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_bowman);
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Natural.getValor())
         {
-            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon8_49);
+            cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.ic_mighty_force);
+            cardCriticoViewHolder.binding.iconCard.setColorFilter(Color.parseColor("#ED4337"));
         }else if(card.getCodAtaque() == TipoAtaqueEnum.Magico.getValor())
         {
             cardCriticoViewHolder.binding.iconCard.setImageResource(R.drawable.icon3_03);
