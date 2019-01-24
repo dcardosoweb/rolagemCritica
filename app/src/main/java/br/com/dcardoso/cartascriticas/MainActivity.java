@@ -75,10 +75,9 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         BottomNavigationView navigation = binding.navigation;
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        navigation.setSelected(false);
         recyclerView = binding.rcvListCards;
-
         db = CardCriticoApp.obterInstanciaDB();
+        carregarListaAcertoCritico();
     }
 
     private void carregarListaAcertoCritico()
