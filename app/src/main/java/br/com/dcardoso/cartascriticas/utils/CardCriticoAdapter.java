@@ -140,7 +140,7 @@ public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.
 
     private void setAnimation(View view, int position) {
         if (position > lastPosition) {
-            ItemAnimation.animate(view, on_attach ? position : -1, ItemAnimation.FADE_IN);
+            ItemAnimation.animate(view, on_attach ? position : -1, ItemAnimation.RIGHT_LEFT);
             lastPosition = position;
         }
     }

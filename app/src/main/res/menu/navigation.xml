@@ -6,10 +6,6 @@
         android:id="@+id/acerto_critico"
         android:icon="@drawable/ic_mighty_force"
         android:title="@string/title_acerto" />
-    <item
-        android:id="@+id/sobre"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
 
     <item
         android:id="@+id/falha_critica"
