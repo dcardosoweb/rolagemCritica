@@ -8,6 +8,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
+    <string name="imagem_icone_creditos">
+        <b>Os icones utilizados estão sob os termos do Creative Commons 3.0</b>
+        Icones feitos por <b>Lorc, http://lorcblog.blogspot.com</b>
+        \n
+        Icones feitos por <b>Delapouite, http://delapouite.com</b>
+        \n\n
+        Mais icones e informações em <b>https://game-icons.net</b>
+    </string>
     <string name="dungeons_dragons_OGL_V_1">
 <b>OPEN	GAME	LICENSE	Version	1.0a</b>
 \n
