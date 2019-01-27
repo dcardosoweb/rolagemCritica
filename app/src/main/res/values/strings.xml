@@ -1,20 +1,61 @@
 <resources>
-    <string name="app_name">Rolagens Críticas</string>
+    <string name="app_name">Rolagem Crítica</string>
     <string name="title_home">Sobre</string>
     <string name="title_acerto">Acerto</string>
     <string name="title_falha">Falha</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="excplicacao">
+        <b>DEFINICÕES</b>\n\n
+Para as definições abaixo, presentes em várias cartas, consulte as respectivas páginas no  <b>Livro do Jogador</b> (LdJ).\n\n
+        <b>Tratamento:</b> \n
+        As enfermidades podem ser removidas através de descanso curto ou longo, cura mágica ou teste de Sabedoria (Medicina).
+        Se esse teste for realizado por outra criatura: CD IS. Se for realizado pela própria criatura: CD 20. (Ver <b>Testes de Habilidade </b>, Ld1 p. I74.)
+        \n\n
+<b>Marcado:</b>\n
+        Ataques contra urna criatura marcada possuem vantagem. (Ver  <b>Vantagem e Desvantagem </b>, LdJ p 173)
+        \n\n
+<b>Condições:</b>\n Agarrado, amedrontado, atordoado,Cego, enfeitiçado,envenenado, impedido, incapacitado, Inconsciente, Invisível, paralisado,
+        petrificado, surdo. (Ver  <b>Apêndice A: Condições</b>Ld1 p. 287 a 289)
+        \n\n
+       <b>Regras de Asfixia. (LdJ p. 183)
+           \n
+        Regras de Resistência e Vulnerabilidade a Dano. (LdJ p. 197)
+           \n
+        Regras de Exaustão. (LdJ p. 288)</b>
+        \n\n
+Este aplicativo foi feito utilizando texto e explicações do app de cartas críticas criado pela equipe RPG NEXT, as licenças e créditos devidos estão sinalizadas a baixo pela parte envolvida.
+        \n\n
+    </string>
 
+    <string name="rpg_next_creditos">
+        \n\n
+       Um grande agradecimento à equipe RPG NEXT, que criou a versão original do aplicativo de cartas críticas e que foi usado como base para a criação deste app.
+        \n\n
+        Aplicativo Original
+        \n
+        <b>CARTAS DO ACERTO CRÍTICO</b>
+        \n\n
+        <b>Desenvolvimento do Aplicativo:</b> Luciana Ferrato, Rafael Baptistella Luiz e Pedro Alves
+        \n
+        <b>Disponível em:</b>\n https://rpgnext.com.briapp/cartascriticas
+        \n\n
+        Um agradecimento especial à, Rafael Baptistella Luiz, Vinicius Watzl e Bruno Ramos, por gostarem da ideia da minha versão do aplicativo de cartas críticas e incentivarem  a conclusão e divulgação do mesmo para a comunidade de jogadores de RPG.
+        \n\n
+        Conheça o projeto em <b>rpgnext.com.br</b>
+        \n
+    </string>
 
     <string name="imagem_icone_creditos">
+        \n\n
         <b>Os icones utilizados estão sob os termos do Creative Commons 3.0</b>
-        Icones feitos por <b>Lorc, http://lorcblog.blogspot.com</b>
+        Icones feitos por:
         \n
+        <b>Lorc, http://lorcblog.blogspot.com</b>
+        \n\n
         Icones feitos por <b>Delapouite, http://delapouite.com</b>
         \n\n
         Mais icones e informações em <b>https://game-icons.net</b>
+        \n
     </string>
     <string name="dungeons_dragons_OGL_V_1">
 <b>OPEN	GAME	LICENSE	Version	1.0a</b>
@@ -169,7 +210,8 @@ Jeremy	Crawford,	Chris	Perkins,	Rodney	Thompson,
 Peter	Lee,	James	Wyatt,	Robert	J.	Schwalb,	Bruce	R.
 Cordell,	Chris	Sims,	and	Steve	Townshend,	based	on
 original	material	by	E.	Gary	Gygax	and	Dave	Arneson.
-
+\n
 END	OF	LICENSE
+\n
     </string>
 </resources>

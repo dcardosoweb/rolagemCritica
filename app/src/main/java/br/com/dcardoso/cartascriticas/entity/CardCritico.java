@@ -95,10 +95,10 @@ public class CardCritico {
                 //region Card Ataque Critico
 
                 //cart critico 01
-                new CardCritico("traqueia esmagada", "Dano Crítico, e o alvo fica incapacitado (Ldj p.288) e não pode falar e respirar, até o nicio de seu próximo turno", 1,1, TipoSistemaEnum.DungeonsDragons.getValor()),
-                new CardCritico("mão perfurada", "Dano Crítico, e o alvo solta um item que tiver segurado e não pode usar aquele membro, até o início do seu próximo turno", 2,1, TipoSistemaEnum.DungeonsDragons.getValor()),
-                new CardCritico("testa cortada", "Dano Crítico, e o alvo fica cego (Ldj p.287), até o início de seu próximo turno.", 3,1, TipoSistemaEnum.DungeonsDragons.getValor()),
-                new CardCritico("vulnerabilidade mágica", "Dano Crítico, e o alvo tem vulnerabilidade a dano mágico (Ldj p. 197), até o nício de seu próximo turno.", 4,1, TipoSistemaEnum.DungeonsDragons.getValor()),
+                new CardCritico("traqueia esmagada", "Dano Crítico, e o alvo fica incapacitado (Ldj p.288) e não pode falar e respirar, até o nicio de seu próximo turno", TipoAtaqueEnum.Contusao.getValor(),TipoCriticoEnum.Ataque.getValor(), TipoSistemaEnum.DungeonsDragons.getValor()),
+                new CardCritico("mão perfurada", "Dano Crítico, e o alvo solta um item que tiver segurado e não pode usar aquele membro, até o início do seu próximo turno", TipoAtaqueEnum.Perfurante.getValor(),TipoCriticoEnum.Ataque.getValor(), TipoSistemaEnum.DungeonsDragons.getValor()),
+                new CardCritico("testa cortada", "Dano Crítico, e o alvo fica cego (Ldj p.287), até o início de seu próximo turno.", TipoAtaqueEnum.Cortante.getValor(),TipoCriticoEnum.Ataque.getValor(), TipoSistemaEnum.DungeonsDragons.getValor()),
+                new CardCritico("vulnerabilidade mágica", "Dano Crítico, e o alvo tem vulnerabilidade a dano mágico (Ldj p. 197), até o nício de seu próximo turno.", TipoAtaqueEnum.Magico.getValor(),TipoCriticoEnum.Ataque.getValor(), TipoSistemaEnum.DungeonsDragons.getValor()),
 
                 //cart critico 02
                 new CardCritico("pancada na barriga", "Dano Crítico, e o alvo não consegue se alimentar ou ingerir liquidos, até receber tratamento.", 1,1, TipoSistemaEnum.DungeonsDragons.getValor()),

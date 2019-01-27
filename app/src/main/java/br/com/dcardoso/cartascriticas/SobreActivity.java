@@ -1,8 +1,9 @@
 package br.com.dcardoso.cartascriticas;
 
-import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 
 public class SobreActivity extends AppCompatActivity {
@@ -13,19 +14,36 @@ public class SobreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sobre);
     }
 
-
     public void creditoDungeonsDragons(View v)
     {
-        startActivity(new Intent(this, CreditosDungeonsDragonsActivity.class));
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_creditos_dungeons_dragons, null);
+        dialogBuilder.setView(dialogView);
+
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
     }
 
     public void creditoRpgNext(View v)
     {
-        startActivity(new Intent(this, CreditosRpgNextActivity.class));
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_creditos_rpg_next, null);
+        dialogBuilder.setView(dialogView);
+
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
     }
 
     public void creditoImagens(View v)
     {
-        startActivity(new Intent(this, CreditoUsoImagemActivity.class));
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_credito_uso_imagem, null);
+        dialogBuilder.setView(dialogView);
+
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
     }
 }
