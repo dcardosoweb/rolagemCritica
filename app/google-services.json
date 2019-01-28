@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678194522059",
+    "firebase_url": "https://rolagemcritica.firebaseio.com",
+    "project_id": "rolagemcritica",
+    "storage_bucket": "rolagemcritica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678194522059:android:784dff7ef12ebb33",
+        "android_client_info": {
+          "package_name": "br.com.dcardoso.rolagemcritica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678194522059-592if8mvr04jl8sq6ep5s30ilrsbvjqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9hbIEbHcVouw6sY8mdIr0YS4QA7dnis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
