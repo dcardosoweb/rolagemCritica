@@ -1,6 +1,5 @@
-package br.com.dcardoso.cartascriticas;
+package br.com.dcardoso.rolagemcritica;
 
-import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -9,23 +8,17 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.AttributeSet;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
-import br.com.dcardoso.cartascriticas.entity.CardCritico;
-import br.com.dcardoso.cartascriticas.utils.CardCriticoAdapter;
-import br.com.dcardoso.cartascriticas.utils.TipoAtaqueEnum;
-import br.com.dcardoso.cartascriticas.utils.TipoCriticoEnum;
-import br.com.dcardoso.cartascriticas.databinding.ActivityMainBinding;
-import br.com.dcardoso.cartascriticas.utils.TipoSistemaEnum;
-
-import static br.com.dcardoso.cartascriticas.CardCriticoApp.getContext;
+import br.com.dcardoso.rolagemcritica.entity.CardCritico;
+import br.com.dcardoso.rolagemcritica.utils.CardCriticoAdapter;
+import br.com.dcardoso.rolagemcritica.utils.TipoAtaqueEnum;
+import br.com.dcardoso.rolagemcritica.utils.TipoCriticoEnum;
+import br.com.dcardoso.rolagemcritica.databinding.ActivityMainBinding;
+import br.com.dcardoso.rolagemcritica.utils.TipoSistemaEnum;
 
 public class MainActivity extends AppCompatActivity {
 

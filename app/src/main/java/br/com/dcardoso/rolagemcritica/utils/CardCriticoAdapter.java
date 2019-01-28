@@ -1,10 +1,7 @@
-package br.com.dcardoso.cartascriticas.utils;
+package br.com.dcardoso.rolagemcritica.utils;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.databinding.DataBindingUtil;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import java.util.List;
 
-import br.com.dcardoso.cartascriticas.R;
-import br.com.dcardoso.cartascriticas.entity.CardCritico;
-import br.com.dcardoso.cartascriticas.databinding.FragmentCardItemBinding;
+import br.com.dcardoso.rolagemcritica.R;
+import br.com.dcardoso.rolagemcritica.entity.CardCritico;
+import br.com.dcardoso.rolagemcritica.databinding.FragmentCardItemBinding;
 
 public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.CardCriticoViewHolder>  {
 

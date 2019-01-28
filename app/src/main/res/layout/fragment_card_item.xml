@@ -7,7 +7,7 @@
     <data>
         <variable
             name="card"
-            type="br.com.dcardoso.cartascriticas.entity.CardCritico" />
+            type="br.com.dcardoso.rolagemcritica.entity.CardCritico" />
     </data>
 
     <android.support.constraint.ConstraintLayout

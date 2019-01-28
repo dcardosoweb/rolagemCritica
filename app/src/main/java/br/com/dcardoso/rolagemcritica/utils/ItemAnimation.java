@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas.utils;
+package br.com.dcardoso.rolagemcritica.utils;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

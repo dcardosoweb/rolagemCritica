@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas;
+package br.com.dcardoso.rolagemcritica;
 
 import android.app.Application;
 import android.arch.persistence.db.SupportSQLiteDatabase;
@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.concurrent.Executors;
 
-import br.com.dcardoso.cartascriticas.entity.CardCritico;
+import br.com.dcardoso.rolagemcritica.entity.CardCritico;
 
 public class CardCriticoApp extends Application {
 

@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas.repository;
+package br.com.dcardoso.rolagemcritica.repository;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
@@ -7,7 +7,7 @@ import android.arch.persistence.room.Query;
 
 import java.util.List;
 
-import br.com.dcardoso.cartascriticas.entity.CardCritico;
+import br.com.dcardoso.rolagemcritica.entity.CardCritico;
 
 @Dao
 public interface ICardRepository {

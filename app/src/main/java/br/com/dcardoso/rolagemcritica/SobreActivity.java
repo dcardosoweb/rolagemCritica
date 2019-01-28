@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas;
+package br.com.dcardoso.rolagemcritica;
 
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;

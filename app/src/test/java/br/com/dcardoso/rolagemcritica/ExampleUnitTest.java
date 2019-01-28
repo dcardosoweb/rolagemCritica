@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas;
+package br.com.dcardoso.rolagemcritica;
 
 import org.junit.Test;
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="br.com.dcardoso.cartascriticas">
+    package="br.com.dcardoso.rolagemcritica">
 
     <application
-        android:name=".CardCriticoApp"
+        android:name="br.com.dcardoso.rolagemcritica.CardCriticoApp"
         android:allowBackup="true"
         android:icon="@mipmap/app_logo"
         android:label="@string/app_name"
@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".CreditoUsoImagemActivity"></activity>
-        <activity android:name=".CreditosDungeonsDragonsActivity">
+        <activity android:name="br.com.dcardoso.rolagemcritica.CreditoUsoImagemActivity"></activity>
+        <activity android:name="br.com.dcardoso.rolagemcritica.CreditosDungeonsDragonsActivity">
         </activity>
-        <activity android:name=".CreditosRpgNextActivity" />
-        <activity android:name=".SobreActivity" />
+        <activity android:name="br.com.dcardoso.rolagemcritica.CreditosRpgNextActivity" />
+        <activity android:name="br.com.dcardoso.rolagemcritica.SobreActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="br.com.dcardoso.rolagemcritica.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

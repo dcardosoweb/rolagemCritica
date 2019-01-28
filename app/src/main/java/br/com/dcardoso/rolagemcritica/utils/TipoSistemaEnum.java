@@ -1,4 +1,4 @@
-package br.com.dcardoso.cartascriticas.utils;
+package br.com.dcardoso.rolagemcritica.utils;
 
 public enum TipoSistemaEnum {
     DungeonsDragons(1);
