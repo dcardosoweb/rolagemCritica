@@ -4,9 +4,9 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
-import br.com.dcardoso.rolagemcritica.utils.TipoAtaqueEnum;
-import br.com.dcardoso.rolagemcritica.utils.TipoCriticoEnum;
-import br.com.dcardoso.rolagemcritica.utils.TipoSistemaEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoAtaqueEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoCriticoEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoSistemaEnum;
 
 @Entity
 public class CardCritico {
@@ -18,6 +18,7 @@ public class CardCritico {
     private int codTipo;
     private int codAtaque;
     private int codSistema;
+    private int codIdioma;
 
     @Ignore
     private String tipoAtaqueDescricao;
@@ -26,12 +27,22 @@ public class CardCritico {
     public CardCritico() {
     }
 
+    @Ignore
     public CardCritico(String titulo, String descricao, int codAtaque, int codTipo,int codSistema) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.codTipo = codTipo;
         this.codAtaque = codAtaque;
         this.codSistema = codSistema;
+    }
+
+    public CardCritico(String titulo, String descricao, int codAtaque, int codTipo,int codSistema, int codIdioma) {
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.codTipo = codTipo;
+        this.codAtaque = codAtaque;
+        this.codSistema = codSistema;
+        this.codIdioma = codIdioma;
     }
 
     public int getId() {
@@ -88,6 +99,14 @@ public class CardCritico {
 
     public void setCodSistema(int codSistema) {
         this.codSistema = codSistema;
+    }
+
+    public int getCodIdioma() {
+        return codIdioma;
+    }
+
+    public void setCodIdioma(int codIdioma) {
+        this.codIdioma = codIdioma;
     }
 
     public static CardCritico[] populateData() {

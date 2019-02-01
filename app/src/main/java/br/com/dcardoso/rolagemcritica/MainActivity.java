@@ -8,8 +8,6 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.SpannableString;
-import android.text.Spanned;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -17,10 +15,10 @@ import java.util.ArrayList;
 import java.util.List;
 import br.com.dcardoso.rolagemcritica.entity.CardCritico;
 import br.com.dcardoso.rolagemcritica.utils.CardCriticoAdapter;
-import br.com.dcardoso.rolagemcritica.utils.TipoAtaqueEnum;
-import br.com.dcardoso.rolagemcritica.utils.TipoCriticoEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoAtaqueEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoCriticoEnum;
 import br.com.dcardoso.rolagemcritica.databinding.ActivityMainBinding;
-import br.com.dcardoso.rolagemcritica.utils.TipoSistemaEnum;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoSistemaEnum;
 
 public class MainActivity extends AppCompatActivity {
 

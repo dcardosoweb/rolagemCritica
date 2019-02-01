@@ -1,6 +1,7 @@
 package br.com.dcardoso.rolagemcritica.entity;
 
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
 @Entity
@@ -8,10 +9,23 @@ public class DicaDeRegra {
 
     @PrimaryKey(autoGenerate = true)
     private int id;
-    private int tipoRegra;
     private String tag;
     private String titulo;
     private String descricao;
+    private int codSistema;
+    private int codIdioma;
+
+    @Ignore
+    public DicaDeRegra() {
+    }
+
+    public DicaDeRegra(String tag, String titulo, String descricao, int codSistema, int codIdioma) {
+        this.tag = tag;
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.codSistema = codSistema;
+        this.codIdioma = codIdioma;
+    }
 
     public int getId() {
         return id;
@@ -19,14 +33,6 @@ public class DicaDeRegra {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getTipoRegra() {
-        return tipoRegra;
-    }
-
-    public void setTipoRegra(int tipoRegra) {
-        this.tipoRegra = tipoRegra;
     }
 
     public String getTag() {
@@ -51,5 +57,21 @@ public class DicaDeRegra {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public int getCodSistema() {
+        return codSistema;
+    }
+
+    public void setCodSistema(int codSistema) {
+        this.codSistema = codSistema;
+    }
+
+    public int getCodIdioma() {
+        return codIdioma;
+    }
+
+    public void setCodIdioma(int codIdioma) {
+        this.codIdioma = codIdioma;
     }
 }

@@ -12,6 +12,7 @@ import java.util.List;
 import br.com.dcardoso.rolagemcritica.R;
 import br.com.dcardoso.rolagemcritica.entity.CardCritico;
 import br.com.dcardoso.rolagemcritica.databinding.FragmentCardItemBinding;
+import br.com.dcardoso.rolagemcritica.utils.enums.TipoAtaqueEnum;
 
 public class CardCriticoAdapter extends RecyclerView.Adapter<CardCriticoAdapter.CardCriticoViewHolder>  {
 
