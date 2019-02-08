@@ -51,7 +51,10 @@ public class CardCriticoApp extends Application {
                                 Executors.newCachedThreadPool().execute(new Runnable() {
                                     @Override
                                     public void run() {
+                                        //carrega as regras
                                        database.cardRepository().SaveAll(CardCritico.populateData());
+
+                                       //carrega os efeitos
                                     }
                                 });
                             }
