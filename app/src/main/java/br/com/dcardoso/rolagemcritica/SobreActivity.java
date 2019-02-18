@@ -40,21 +40,15 @@ public class SobreActivity extends AppCompatActivity {
 
     public void creditoImagens(View v)
     {
-        /*AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
-        LayoutInflater inflater = this.getLayoutInflater();
 
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_credito_uso_imagem, null);
         dialogBuilder.setView(dialogView);
 
         AlertDialog alertDialog = dialogBuilder.create();
-        alertDialog.show();*/
-        LayoutInflater inflater = this.getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.activity_credito_uso_imagem, null);
-        SweetAlertDialog dialog = new SweetAlertDialog(this, SweetAlertDialog.NORMAL_TYPE);
-        dialog.setContentText(getString(R.string.imagem_icone_creditos));
-        dialog.show();
-                //.setTitleText(titulo)
-                //.setContentView(dialogView);
-                //.setContentText(dialogView)
-                //.show();
+        alertDialog.show();
+
+
     }
 }

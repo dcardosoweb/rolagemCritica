@@ -5,11 +5,14 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.falha_critica:
                     carregarListaFalhaCritica();
                     return true;
+                case R.id.configuracao:
+                    abrirConfiguracao();
+                    return true;
             }
             return false;
         }
@@ -97,5 +103,16 @@ public class MainActivity extends AppCompatActivity {
         CardCriticoAdapter adapter = new CardCriticoAdapter(listCards, this);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
+    }
+
+    private void abrirConfiguracao()
+    {
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_configuracao, null);
+        dialogBuilder.setView(dialogView);
+
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
     }
 }
