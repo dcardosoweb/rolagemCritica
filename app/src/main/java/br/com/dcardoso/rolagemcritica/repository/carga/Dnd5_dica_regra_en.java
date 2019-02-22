@@ -55,7 +55,7 @@ public class Dnd5_dica_regra_en {
                 new DicaDeRegra(
                         "ABILITY-CHA",
                         "Charisma reduction",
-                        "The character takes penalties on:<ul><li>Charisma checks</li><li>Charisma saving throws</li><li>Deception, Intimidation, Performance and Persuasion checks</li><li>Spell DCs based off Charisma</li><li>DC to resist channeled energy</li></ul>",
+                        "The character takes penalties on:<ul><li>Charisma checks</li><li>Charisma saving throws</li><li>Deception, Intimidation, Performance and Persuasion checks</li><li>Spell DCs based on Charisma</li><li>DC to resist channeled energy</li></ul>",
                         TipoSistemaEnum.DungeonsDragons.getValor(),IdiomaEnum.Ingles.getValor()),
                 new DicaDeRegra(
                         "SAVE-CRITICAL",

@@ -59,9 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.falha_critica:
                     carregarListaFalhaCritica();
                     return true;
-                case R.id.configuracao:
-                    abrirConfiguracao();
-                    return true;
             }
             return false;
         }

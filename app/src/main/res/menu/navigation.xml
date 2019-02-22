@@ -8,11 +8,6 @@
         android:title="@string/title_acerto" />
 
     <item
-        android:id="@+id/configuracao"
-        android:icon="@drawable/ic_pokecog"
-        android:title="@string/title_acerto" />
-
-    <item
         android:id="@+id/falha_critica"
         android:icon="@drawable/ic_backstab"
         android:title="@string/title_falha"/>
